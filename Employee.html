@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Employee Management System</title>
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            nav{
+                background-color: #333;
+                color: #fff;
+                padding: 15px;
+                text-align: center;
+            }
+            nav a{
+                color: #fff;
+                text-decoration: none;
+                margin: 0 15px;
+                font-size: 18px;
+            }
+            nav a:hover{
+                text-decoration: underline;
+            }
+            .container{
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="registration">Registration</a>
+            <a href="LOGIN">LOGIN</a>
+            <a href="Finance">Finance</a>
+            <a href="Departments">Departments</a>
+            <a href="Procurement">Procurement</a>
+            <a href="LEAVE">LEAVE</a>
+                </nav>
+                <div class="container">
+                    <section id="registration">
+                        <h2>Registration</h2>
+                        <p>Form to register new employees</p>
+                        <form>
+                            <label for="Name">Name</label><br>
+                            <input type="text" id="name" name="name" required><br><br>
+                            <label for="email" id="email" name="email"required></label><br>
+                            <input type="email" id="email" name="email" required><br><br>
+                            <label for="Password">Password</label><br>
+                            <input type="Password" id="Password" name="Password" required><br><br>
+                            <button type="submit">Register</button>
+                        </form>
+                    </section>
+
+                    <section id="Login">
+                        <h2>Login</h2>
+                        <p>Form for employee login</p>
+                        <form>
+                            <label for="email-login">Email:</label><br>
+                            <input type="email" id="email" name="email" required><br><br>
+                            <label for="Password-Login">Password:</label><br>
+                            <input type="Password" id="Password name=Password" required><br><br>
+                            <button type="submit">Login</button>
+                        </form>
+                    </section>
+
+                    <section id="Finance">
+                        <h2>Finance</h2>
+                        <p>Manage financial records and payroll information</p>
+                    </section>
+
+                    <section id="Procurement">
+                        <h2>Details related to Procurement and purchasing</h2>
+                    </section>
+
+                    <section id="Leave">
+                        <h2>Leave</h2>
+                        <p>Leave application and approval process</p>
+                    </section>
+                </div>
+    </body>
+</html>
